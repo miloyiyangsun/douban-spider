@@ -1,6 +1,9 @@
 # 📚 豆瓣书评采集器
 
-⚡ 快速获取豆瓣图书短评数据 | 🚀 Python3 一键运行
+⚡ 快速获取豆瓣图书短评数据 
+<img width="191" alt="image" src="https://github.com/user-attachments/assets/d24e3291-a160-4cc5-92f7-e2b7e7dcf2c3" />
+<img width="575" alt="image" src="https://github.com/user-attachments/assets/6c5bfe29-e4c6-4a6e-8771-31b718d0c6b1" />
+
 
 ## 🌟 核心功能
 
@@ -16,7 +19,7 @@
 pip install requests beautifulsoup4
 
 # 运行脚本（使用相对路径）
-python ./douban_spider.py
+python3 ./douban_spider.py
 ```
 
 ## 📂 文件结构
@@ -31,7 +34,9 @@ python ./douban_spider.py
 ## 🛠️ 技术亮点
 
 ▸ 双引擎 ID 搜索：直接匹配 + 跳转链接解析
+
 ▸ 智能分页控制：默认 10 页（约 200 条）
+
 ▸ 抗封禁策略：2-5 秒随机请求间隔
 
 ## ⚠️ 注意事项
@@ -39,3 +44,6 @@ python ./douban_spider.py
 首次使用需安装上述两个依赖
 豆瓣限制未登录用户查看评论页数
 高频访问可能导致 IP 暂时封禁
+
+
+
