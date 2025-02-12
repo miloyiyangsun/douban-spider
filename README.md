@@ -2,7 +2,7 @@
 
 ⚡ 快速获取豆瓣图书短评数据 
 
-<img width="1242" alt="image" src="https://github.com/user-attachments/assets/e93a35f9-280e-48f1-a637-5fe837108579" />
+<img width="1244" alt="image" src="https://github.com/user-attachments/assets/a0ce1316-5623-48d8-89f6-3523982f435f" />
 
 
 ## 🌟 核心功能
