@@ -9,21 +9,24 @@
 💾 自动生成 CSV → 兼容 Excel 中文显示
 ⏱️ 智能反爬策略 → 随机延迟+请求头模拟
 
-## 🚦 快速开始
+## 🚀 快速开始
 
-安装依赖（首次运行）
+```bash
+# 安装依赖
 pip install requests beautifulsoup4
-运行脚本
-python3 douban_spider.py
-输入书名（如"活着"），自动生成：
-→ data/活着\*评论.csv
 
-## 📁 文件结构
+# 运行脚本（使用相对路径）
+python ./douban_spider.py
+```
 
-├── douban_spider.py # 主程序
-├── data/ # 自动创建存储目录
-│ └── {书名}评论.csv # 输出文件示例
-└── README.md # 使用说明
+## 📂 文件结构
+
+```
+.
+├── douban_spider.py    # 主程序
+├── data/               # 自动创建的存储目录
+└── README.md
+```
 
 ## 🛠️ 技术亮点
 
